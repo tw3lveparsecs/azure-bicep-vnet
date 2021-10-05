@@ -28,11 +28,6 @@ module vnet './main.bicep' = {
         addressPrefix: '10.0.1.0/24'
         privateEndpointNetworkPolicies: 'disabled'
         privateLinkServiceNetworkPolicies: 'disabled'
-        delegation: null
-        natgatewayId: null
-        nsgId: null
-        udrId: null
-        serviceEndpoints: null
       }
     ]
     enableDeleteLock: true
